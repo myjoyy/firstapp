@@ -88,7 +88,7 @@
         android:id="@+id/likes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteX="21dp"
         tools:layout_editor_absoluteY="265dp"
         tools:text="@sample/posts.json/data/likes" />
 
@@ -96,7 +96,7 @@
         android:id="@+id/shared"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteX="80dp"
         tools:layout_editor_absoluteY="265dp"
         tools:text="@sample/posts.json/data/shared" />
 
@@ -107,6 +107,30 @@
         tools:layout_editor_absoluteX="355dp"
         tools:layout_editor_absoluteY="265dp"
         tools:text="@sample/posts.json/data/views" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="26dp"
+        android:layout_height="22dp"
+        app:srcCompat="@drawable/baseline_remove_red_eye_24"
+        tools:layout_editor_absoluteX="329dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        app:srcCompat="@drawable/baseline_favorite_border_24"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="24dp"
+        android:layout_height="22dp"
+        app:srcCompat="@drawable/baseline_ios_share_24"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="265dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
